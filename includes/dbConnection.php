@@ -9,9 +9,7 @@ $conn = mysqli_connect($servername,$dBUsername,$dBPassword);
 //Database Creation
 
 $sql = "CREATE DATABASE BankOfParadise";
-if(mysqli_query($conn, $sql)){
-    echo "Database created successfully";
-} 
+mysqli_query($conn, $sql);
 
 mysqli_close($conn); 
 
@@ -30,10 +28,9 @@ Email_id VARCHAR(50) NOT NULL,
 password VARCHAR(50) NOT NULL,
 balance FLOAT 
 )";
+$conn->query($sql_users;
 
-if (!$conn->query($sql_users)) {
-  echo "Table e-bankusers  is not created successfully";
-} 
+ 
 
 //Inserting values into the database
 
@@ -61,8 +58,5 @@ $sql_transactions = "CREATE TABLE transactions (
     amount FLOAT NOT NULL,
     date DATETIME
     )";
-
-if ($conn->query($sql_transactions) === TRUE) {
-    echo "Table transactions created successfully";
-  } 
+$conn->query($sql_transactions);
 ?>
