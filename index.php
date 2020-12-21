@@ -26,7 +26,7 @@
             </div>
             <div class="row">
                 <div class="column">
-                    <a href = "users.php" name = "usersList_link"><img src="images/users2.jfif" alt="users" style="width:100%"><h2 style="text-align:center;">Users</h2></a>
+                    <a href = "includes/users.php" name = "usersList_link"><img src="images/users2.jfif" alt="users" style="width:100%"><h2 style="text-align:center;">Users</h2></a>
                 </div>
                 <div class="column">
                     <a href = "transferMoney.php" name = "transfermoney"><img src="images/transfer.jfif" alt="money transfer" style="width:100%"><h2 style="text-align:center;">Transfer Money</h2></a></a>
